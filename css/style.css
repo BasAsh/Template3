@@ -1,0 +1,122 @@
+.parent{
+    background-image: url(../Images/vecteezy_vector-illustration-of-mountains-blue-mountain-eps10-file_10055981.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 220vh;
+    position: relative;
+}
+/* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+.div1{
+    position: absolute;
+    left: 40px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/11111.png);
+    background-size: cover;
+
+    animation: change 5s linear  forwards 3s ;
+}
+.div2{
+    position: absolute;
+    left: 40px;
+    top: 400px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/11111.png);
+    background-size: cover;
+
+    animation: change 5s linear 13s  forwards ;
+}
+.div3{
+    position: absolute;
+    left: 40px;
+    top: 800px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/11111.png);
+    background-size: cover;
+
+    animation: change 5s linear 23s  forwards ;
+}
+.div4{
+    position: absolute;
+    left: 40px;
+    top: 1200px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/11111.png);
+    background-size: cover;
+
+    animation: change 5s linear 35s  forwards ;
+}
+
+@keyframes change {
+    from{
+
+    }
+    to{
+        left: 1250px;
+    }
+    
+}
+/* //////////////////////////////////////////////////////////////////// */
+.div5{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/—Pngtree—surfer\ riding\ surfboard_7299145.png);
+    background-size: cover;
+
+    animation: change2 5s linear 8s  forwards ;
+}
+
+.div6{
+    position: absolute;
+    right: 40px;
+    top: 600px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/—Pngtree—surfer\ riding\ surfboard_7299145.png);
+    background-size: cover;
+
+    animation: change2 5s linear 18s  forwards ;
+}
+
+.div7{
+    position: absolute;
+    right: 40px;
+    top: 1000px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/—Pngtree—surfer\ riding\ surfboard_7299145.png);
+    background-size: cover;
+    animation: change2 5s linear 29s  forwards ;
+}
+
+.div8{
+    position: absolute;
+    right: 40px;
+    top: 1400px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../Images/—Pngtree—surfer\ riding\ surfboard_7299145.png);
+    background-size: cover;
+
+    animation: change2 5s linear 39s  forwards ;
+}
+
+@keyframes change2 {
+    from{
+        left: 1250px;
+    }
+    to{
+        left: 40px;
+    }
+    
+}
+
